@@ -4,20 +4,17 @@ import Categories from "@/components/categories";
 import Hero from "@/components/hero";
 import Promotion from "@/components/promotion";
 import Services from "@/components/services";
-import { Carousel } from "@/components/ui/carousel";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
     <div className="">
-      <Hero />
-      {/* <FeaturdeProducts /> */}
+      <Hero /> 
       <Services />
       <Promotion />
       <Categories />
       <BestSelling />
-      </div>
+    </div>
     </>
   );
-}
+};
